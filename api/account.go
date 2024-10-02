@@ -150,6 +150,6 @@ func (server *Server) deleteAccount(ctx *gin.Context) {
 		return
 	}
 
-	ctx.JSON(http.StatusOK, gin.H{"message": "Successfully deletes account!"})
+	ctx.JSON(http.StatusOK, gin.H{"message": "Successfully delete account!"})
 
 }
